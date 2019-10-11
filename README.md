@@ -30,10 +30,12 @@ Try to run the Docker image to ensure everything works
 # Contacts
 
 #### Speakers
-Kilian Brandt kilian(at)unit8.co
-Krzysztof Styrc: kstyrc(at)unit8.co
+
+*Kilian Brandt kilian(at)unit8.co
+*Krzysztof Styrc: kstyrc(at)unit8.co
 
 #### Unit8
+
 * Website: https://unit8.co/
 * LinkedIn: https://www.linkedin.com/company/unit8.co/
 * Twitter: https://twitter.com/unit8co 
