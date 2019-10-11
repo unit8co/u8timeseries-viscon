@@ -25,3 +25,15 @@ Navigate to the repository directory with a terminal and build the docker image
 Try to run the Docker image to ensure everything works
  
 `docker run -p 8000:8888 -v "$PWD":/home/jovyan/work unit8/timeseries:0.1`
+
+
+# Contacts
+
+#### Speakers
+Kilian Brandt kilian(at)unit8.co
+Krzysztof Styrc: kstyrc(at)unit8.co
+
+#### Unit8
+* Website: https://unit8.co/
+* LinkedIn: https://www.linkedin.com/company/unit8.co/
+* Twitter: https://twitter.com/unit8co 
