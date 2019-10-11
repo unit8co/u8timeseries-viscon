@@ -31,7 +31,7 @@ Try to run the Docker image to ensure everything works
 
 #### Speakers
 
-* Kilian Brandt kilian(at)unit8.co
+* Kilian Brandt: kilian(at)unit8.co
 * Krzysztof Styrc: kstyrc(at)unit8.co
 
 #### Unit8
