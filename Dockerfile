@@ -14,6 +14,10 @@ RUN apt-get update && apt-get -y install curl && apt-get -y install apt-utils
 # to build prophet
 RUN apt-get -y install build-essential libc-dev
 
+# for R
+RUN apt-get -y install r-base libcurl4-openssl-dev
+RUN R -e "install.packages('forecast', dependencies = TRUE)"
+
 USER $NB_USER
 
 # u8ts specific deps
