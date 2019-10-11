@@ -33,7 +33,7 @@ And access the Jupyter web server with your browser (the link is printed in your
 
 If you can access Jupyter from your browser you're all good for our workshop !
 
-_Note: for Windows users replace `"$PWD"` with "%cd%"_ 
+_Note: for Windows users replace `"$PWD"` with `"%cd%"`_ 
 
 # Contacts
 
