@@ -22,9 +22,11 @@ Navigate to the repository directory with a terminal and build the docker image
 
 ## Step 4
 
-Try to run the Docker image to ensure everything works
+Try to run the Docker image
  
-`docker run -p 8000:8888 -v "$PWD":/home/jovyan/work unit8/timeseries:0.1`
+`docker run -p 8888:8888 -v "$PWD":/home/jovyan/work unit8/timeseries:0.1`
+
+And access the Jupyter web server with your browser (the link is printed in your terminal)
 
 
 # Contacts
