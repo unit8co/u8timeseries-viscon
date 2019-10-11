@@ -18,13 +18,13 @@ Install Docker Community Edition (CE)
 
 Navigate to the repository directory with a terminal and build the docker image
 
-`docker build . -t unit8/timeseries:0.1`
+`docker build . -t unit8/timeseries-viscon`
 
 ## Step 4
 
 Try to run the Docker image
  
-`docker run -p 8888:8888 -v "$PWD":/home/jovyan/work unit8/timeseries:0.1`
+`docker run -p 8888:8888 -v "$PWD":/home/jovyan/work unit8/timeseries-viscon`
 
 And access the Jupyter web server with your browser (the link is printed in your terminal)
 
