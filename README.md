@@ -16,7 +16,7 @@ Install Docker Community Edition (CE)
 
 ## Step 3
 
-Pull the Workshop Docker image from the hub (download can take several minutes):
+Pull the workshop Docker image from the hub (it can take several minutes):
 
 `docker pull kstyrc/timeseries-viscon:0.1`
 
