@@ -16,18 +16,24 @@ Install Docker Community Edition (CE)
 
 ## Step 3
 
-Navigate to the repository directory with a terminal and build the docker image
+Pull the workshop Docker image from the hub (it can take several minutes):
 
-`docker build . -t unit8/timeseries:0.1`
+`docker pull kstyrc/timeseries-viscon:0.1`
+
+_Note: The Dockerfile is provided in this repository so you can build/edit it by your own._
 
 ## Step 4
 
-Try to run the Docker image
+- Open a terminal and navigate to the repository cloned in step 1.
+- Try to run the Docker image
  
-`docker run -p 8888:8888 -v "$PWD":/home/jovyan/work unit8/timeseries:0.1`
+`docker run -p 8888:8888 -v "$PWD":/home/jovyan/work kstyrc/timeseries-viscon:0.1`
 
 And access the Jupyter web server with your browser (the link is printed in your terminal)
 
+If you can access Jupyter from your browser you're all good for our workshop !
+
+_Note: for Windows users replace `"$PWD"` with `"%cd%"`_ 
 
 # Contacts
 
